@@ -7,12 +7,18 @@
 pd.dataframe 相对于生成一张表格
 
 ##常用操作
-df["列名"]   取一列
+df["列名"]   取一列 按True、False进行条件筛选
 df[["列1","列2"]] 去多列
 df[["列]>数值] 条件筛选
-mean() 平均值
-max() 最大值
-min() 最小值
+df.isna() 检查每个单元格是否缺失
+df.fillna() 返回填补后的成绩列
+df.sort_values() 取1列按值排序
+df.to_csv(路径，index = ) 写入到csv文件,index是否保存左边的行索引
+.mean() 平均值 默认跳过缺失值
+.max() 最大值
+.min() 最小值
+pd.read_csv(.../ "..." / "...") 读取csv文件，返回一个D
+
 
 ##我的理解
 Pandas 就像代码可以操作的Excel表格，读取生成表格来进行一系列的操作。
