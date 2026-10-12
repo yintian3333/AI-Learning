@@ -1,0 +1,7 @@
+name,study_hours,scores,passed,excellent
+Mike,6,98.0,True,True
+Jack,5,95.0,True,True
+Alice,4,88.0,True,False
+Lucy,3,82.2,True,False
+Tom,2,70.0,True,False
+Bob,1,60.0,True,False
